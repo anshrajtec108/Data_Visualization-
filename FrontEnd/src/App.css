@@ -1,0 +1,64 @@
+.not-found {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full height of the viewport */
+    font-family: Arial, sans-serif; /* A clean, modern font */
+    font-size: 24px; /* Larger font size for emphasis */
+    color: #ff6f61; /* A visually striking color */
+    background-color: #f9f9f9; /* Light background for contrast */
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 2px dashed #ff6f61; /* Dashed border for attention */
+    border-radius: 10px; /* Rounded corners */
+    margin: 20px; /* Margin to prevent touching the edges */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Slight shadow for depth */
+}
+.tab-container {
+  margin-left: 6.1vw;
+}
+
+.tab-container .nav-link.active {
+  border-color: #ff9e3d;
+  color: #756e67;
+}
+
+.tab-container .nav-link {
+  color: #ff9e3d;
+}
+
+.tab-container .nav-item {
+  border-color: #ff9e3d;
+}
+
+.tab-container .nav-item.show .nav-link, .tab-container .nav-link.active {
+  border-color: #ff9e3d;
+}
+
+.tab-container .nav-tabs .nav-link.active, .tab-container .nav-tabs .nav-item.show .nav-link {
+  border-color: #ff9e3d;
+}
+
+/* Define default scrollbar styles */
+::-webkit-scrollbar {
+  width: 8px; /* Width of the scrollbar */
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #fce1c4; /* Color of the scrollbar track */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ff9e3d; /* Color of the scrollbar handle */
+  border: 2px solid #ff9e3d; /* Border thickness and color of the scrollbar handle */
+  border-radius: 4px; /* Border radius of the scrollbar handle */
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #ff9e3d; /* Color of the scrollbar handle on hover */
+}
+
